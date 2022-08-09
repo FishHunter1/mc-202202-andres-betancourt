@@ -31,7 +31,9 @@ while isActive:
         if opcion == 1:
             for x in a:
                 c.add(x)
-                print("\nA =",a,"\nB =",b,"\n\nA ∪ B = C \nC =",c,"\n|C| =",len(c))
+            for x in b:
+                c.add(x)
+            print("\nA =",a,"\nB =",b,"\n\nA ∪ B = C \nC =",c,"\n|C| =",len(c))
         elif opcion == 2:
                 for x in a:
                     if x in b:
