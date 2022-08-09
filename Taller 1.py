@@ -36,7 +36,7 @@ while isActive:
                 for x in a:
                     if x in b:
                         c.add(x)
-                        print("\nA =",a,"\nB =",b,"\n\nA ∩ B = C \nC =",c,"\n|C| =",len(c))
+                print("\nA =",a,"\nB =",b,"\n\nA ∩ B = C \nC =",c,"\n|C| =",len(c))
         elif opcion == 3:
                 for x in a:
                     if x not in b:
