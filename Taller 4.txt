@@ -1,0 +1,39 @@
+1. La fabrica de automoviles summer fabrica su popular modelo sunshine en 10 colores, 5 lineas, 3 tipos de transmision y 2 cilindrajes diferentes.
+
+a) ¿cuantos tipos de vehiculos se pueden fabricar?
+	
+	10*5*3*2=300
+
+b)si solamente se ofrecen colores primarios (rojo, azul, amarillo), ¿cuantos tipos se tendran ahora?
+	
+	3*5*3*2=90
+
+2.¿cuantas placas de automovil se puede hacer que contengan tres letras (sin incluir la Ñ) seguidas de tres digitos y si se permite que haya repeticiones de letras y numeros? 
+
+	26*26*26*10*10*10=17.576.000
+
+¿cuantas si no hay repeticiones?
+
+	26*25*24*10*9*8=11.232.000
+
+3)¿Cuantas cadenas de 16 bits comienzan y terminan con numeros 00?
+
+	2^12=4096
+
+5) ¿de cuantas maneras se puede seleccionar el presidente,vicepresidente, secretario y tesorero de un grupo de 12 personas?
+
+	12*11*10*9= 11.880
+
+6) un coleccionista de libros antiguos desea ubicar sus 9 libros mas preciados en una vitrina antirrobos, uno al lado del otro. 4 de los libros estan escritos en griego y los 5 restantes en latin.
+	
+a) ¿de cuantas formas se pueden ubicar los libros en la vitrina?
+
+	9!= 362880
+
+b) ¿de cuantas formas si todos los libros en latin deben estar uno al lado del otro?
+
+	5!*5!=14.400
+
+c) si desea alternar los libros(latin,griego, latin,griego,etc.) ¿de cuantas formas se pueden ubicar ahora?
+
+	5!*4!=2880
