@@ -1,0 +1,23 @@
+1) Ayer deje mi telefono celular olvidado en el autobus, por lo que lo remplace rapidamente por un telefono con menor capacidad de memoria. En mi telefono anterior tenia instaladas 18 aplicacione y ahora solamente puedo selccionar 8.
+
+- a) ¿De cuantas formas puedo realizar esta seleccion?
+
+	18!/((18-8)!*8!) = 43.758
+
+- b) ¿Si deseo mantener instaladas 3 de las 5 aplicaciones de redes sociales que tenia y otras 5 de las restantes, ¿ de cuantas formas puedo selccionar ahora?
+
+	5!/((5-3)!*3!)*(13!/((13-5)!*5!)) = 12.870
+
+2. Una baraja comun de 52 cartas consiste en cuatro palos (Treboles, diamantes, corazones y espadas) con  13 denominaciones cada uno (as, de 2 a 10, jack [J], reina [Q] y rey [K].
+
+- a) ¿cuantas manos de poquer(sin ordenar) de cinco cartas, seleccionadas de una baraja comun de 52 cartas, existen?
+
+	52!/((52-5)!*5!) = 2.598.960
+
+- b) ¿cuantas manos de poquer contienen cartas toda del mismo palo?
+
+	13!/((13-5)!*5!) * 4 = 5148
+
+- c)¿cuantas manos de poquer contienen tres cartas de una denominacion y dos de segunda denominacion?
+
+	13*(4!/((4-3)!*3!))*12*(4!/((4-2)!*2!)) = 3744
