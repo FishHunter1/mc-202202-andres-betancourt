@@ -32,8 +32,6 @@ def minimo_cuadrado():
     plt.xlabel(r'$\delta ^{13}C$', fontsize=16)
     plt.ylabel(r'$\delta ^{18}O$', fontsize=16)
     plt.xlim(7, 12)
-    plt.text(9, -1.5, r'$\delta ^{18}O=-6.919+0.799*\delta ^{13}C$',
-        fontsize=12)
     plt.show()
 
 def exponencial():
@@ -46,6 +44,14 @@ def exponencial():
     c = np.exp(1.17) * np.exp(0.06*xn)
     plt.plot(xn, yn, "o")
     plt.plot(xn, c)
+    plt.figure(1)
+    plt.scatter(xn, yn, color='r')
+    plt.grid(linestyle='dotted')
+    plt.plot(xn, yn, color='b')
+    plt.title(r'$\delta ^{13}C$ vs $\delta ^{18}O$', fontsize=20)
+    plt.xlabel(r'$\delta ^{13}C$', fontsize=16)
+    plt.ylabel(r'$\delta ^{18}O$', fontsize=16)
+    plt.xlim(7, 12)
     plt.show()
 
 
